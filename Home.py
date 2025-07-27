@@ -45,9 +45,9 @@ st.text("""
         """)
 st.divider()
 st.text(spaces)
-# st.image('Evolution.png')
-# st.divider()
-# st.text(spaces)
+st.image('Evolution.png')
+st.divider()
+st.text(spaces)
 
 ##############
 # Popularity
