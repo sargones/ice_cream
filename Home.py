@@ -54,7 +54,7 @@ st.text(spaces)
 
 st.subheader("Best Ice Cream rating:")
 
-url_details = 'https://raw.githubusercontent.com/sargones/ice_cream/refs/heads/main/products.csv'
+url_details = 'https://raw.githubusercontent.com/sargones/ice_cream/refs/heads/main/products.csv?token=GHSAT0AAAAAADIDTRB4RYYGR4UYTVJGAMLC2EGR6PQ'
 icecream_df = pd.read_csv(url_details)
 # popularity_df = icecream_df[['name', 'rating', 'ingredients']]
 # min_pop = icecream_df['rating'].min()
