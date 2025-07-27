@@ -32,9 +32,12 @@ st.text("""
 st.text(spaces)
 st.divider()
 st.text(spaces)
-st.text(""" 
+st.subheader("""
         Of course we cannot start with out topic but the Ice Cream itself.
         Ice cream has been such a great companion in human interaction and social bonding:
+             """)
+st.text(""" 
+
          - Universal Appeal – Ice cream transcends age, culture, and language. Almost everyone has a favorite flavor, making it an easy, inclusive way to connect with others.
          - Built for Sharing – Whether it’s scooping from the same tub, trying each other’s cones, or ordering a sundae for two, ice cream invites sharing and conversation.
          - Breaks the Ice – Offering someone ice cream is a low-pressure, friendly gesture that naturally leads to small talk, laughter, and deeper conversations.
