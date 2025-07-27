@@ -33,11 +33,9 @@ st.text(spaces)
 st.divider()
 st.text(spaces)
 st.subheader("""
-        Of course we cannot start with out topic but the Ice Cream itself.
+        Of course we cannot start with other topics but the Ice Cream itself. Ice cream has been such a great companion in human interaction and social bonding:
         """)
-st.subheader("""
-        Ice cream has been such a great companion in human interaction and social bonding:
-             """)
+
 st.text(""" 
 
          - Universal Appeal – Ice cream transcends age, culture, and language. Almost everyone has a favorite flavor, making it an easy, inclusive way to connect with others.
