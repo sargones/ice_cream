@@ -61,7 +61,8 @@ min_pop = popularity_df['rating'].min()
 max_pop = popularity_df['rating'].max()
 
 
-low_pop, high_pop = st.slider("Select a range", min_pop, max_pop, (3, 4))
+low_pop, high_pop = st.slider(
+    "Select a range", min_pop, max_pop, (min_pop, max_pop))
 
 st.dataframe(popularity_df[(popularity_df['rating'] >= low_pop) & (popularity_df['rating'] <= high_pop)],
              hide_index=True, width=400)
