@@ -3,10 +3,10 @@ import pandas as pd
 # from main import artist_df
 
 st.set_page_config(
-    page_title='Interactive Podcast with Renate', page_icon='👋')  # 🐫
+    page_title='Sweet talks over ice cream', page_icon='🍦')  # 🍦 👋
 
-st.title("🎙️'Interactive Podcast'🎙️")
-st.subheader('with Renate and Plamen')
+st.title("🎙️'Sweet talks over ice cream'🎙️")
+st.subheader('with Tam and Plam')
 spaces = ("""
 
 
@@ -37,6 +37,6 @@ st.text(spaces)
 
 st.write("Thanks for stopping by, hope you'll enjoy it! 🤖 ")
 st.write("In case you liked it or the long calls - feel free to subscibe to ")
-st.write("🎙️'Interactive Podcast'🎙️")
-# st.write("hosted by Renate and Plamen.")
-# st.write('🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫🐫')
+st.write("🎙️'Sweet talks over ice creamt'🎙️")
+st.write("🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦")
+# st.write("hosted by Tam and Plam.")
