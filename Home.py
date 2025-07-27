@@ -22,16 +22,34 @@ st.image('podcast_home.png')
 st.text(spaces)
 
 st.text(""" 
-        Welcome to "Interactive Podcast" a podcast where two individuals, brought together by the serendipity of a dating app, explore the intricate tapestry of life from their unique perspectives. I am Plamen, and joining me is Renate, and together, we dive deep into the multifaceted aspects of our lives, from the professional to the personal, and everything in between. 
-       
-         Each call/chat, we navigate the winding paths of our respective journeys, sharing stories, insights, and sometimes even a few laughs. Whether it is the challenges we face in our careers, the joys and hurdles of our relationships, or the unexpected twists and turns that life throws our way, we are here to unpack it all with honesty and vulnerability.
-
-        From the boardroom to the living room, from the highs of success to the lows of failure, we believe that every story has a lesson to offer. Our backgrounds may be different, but our shared human experience creates a rich and relatable dialogue. So, whether you are looking for a dose of inspiration, a bit of advice, or just a good conversation, you have come to the right place.
-
+        Welcome to "Sweet talks over ice cream" a podcast where we dive deep into the multifaceted aspects of our lives, from the professional to the personal, and everything in between. 
+        where we dive into one of humanity’s sweetest companions—ice cream. From ancient chilled desserts to todays colorful scoops, ice cream has been with us through celebrations, heartbreaks, and lazy Sunday afternoons. 
+        It’s more than just a treat; it’s a conversation starter, a comfort, and often the excuse we need to gather with friends. In this episode, we explore how ice cream became a cultural symbol of joy and connection around the world. 
+        So grab your favorite flavor and let us melt into the story.         
         Join us as we embark on this journey of discovery and connection, and perhaps, find a little bit of ourselves along the way.
         """)
 
 st.text(spaces)
+st.divider()
+st.text(spaces)
+st.text(""" 
+        Of course we cannot start with out topic but the Ice Cream itself.
+        Ice cream has been such a great companion in human interaction and social bonding:
+         - Universal Appeal – Ice cream transcends age, culture, and language. Almost everyone has a favorite flavor, making it an easy, inclusive way to connect with others.
+         - Built for Sharing – Whether it’s scooping from the same tub, trying each other’s cones, or ordering a sundae for two, ice cream invites sharing and conversation.
+         - Breaks the Ice – Offering someone ice cream is a low-pressure, friendly gesture that naturally leads to small talk, laughter, and deeper conversations.
+         - Celebratory Symbol – From birthdays and graduations to first dates and reunions, ice cream often marks special moments and creates positive shared memories.
+         - Comfort in a Cone – In tough times, ice cream becomes a silent companion—its nostalgic and soothing nature helps people open up emotionally or just feel a little better.
+         - Playful and Nostalgic – Ice cream brings back memories of childhood, fun, and freedom, which often lightens the mood and makes people feel more relaxed and open.
+         - Cultural Connector – Across the world, different cultures have unique ice cream traditions. Trying or talking about them is a delicious gateway to learning about others.
+        """)
+st.divider()
+st.text(spaces)
+
+
+st.audio('ice_cream.wav', format="audio/wav", start_time=0, sample_rate=None,
+         end_time=None, loop=False, autoplay=False)
+
 st.divider()
 st.text(spaces)
 
