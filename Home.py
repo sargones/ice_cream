@@ -34,6 +34,8 @@ st.divider()
 st.text(spaces)
 st.subheader("""
         Of course we cannot start with out topic but the Ice Cream itself.
+        """)
+st.subheader("""
         Ice cream has been such a great companion in human interaction and social bonding:
              """)
 st.text(""" 
