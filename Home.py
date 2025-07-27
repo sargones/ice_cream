@@ -84,7 +84,7 @@ st.divider()
 st.text(spaces)
 
 st.write("Thanks for stopping by, hope you'll enjoy it!  ")  # 🤖
-st.write("In case you liked it or the long calls - feel free to subscibe to ")
+st.write("In case you liked it or hopefully the long calls, walks and talks we will have with Tamar - feel free to subscibe to")
 st.write("🎙️'Sweet talks over ice creamt'🎙️")
 st.write("🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦")
-# st.write("hosted by Tam and Plam.")
+st.write("hosted by Tam and Plam.")
