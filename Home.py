@@ -18,7 +18,7 @@ spaces = ("""
 
 st.text(spaces)
 
-st.image('podcast_home.png')
+st.image('ice_cream.png')
 st.text(spaces)
 
 st.text(""" 
@@ -43,6 +43,32 @@ st.text("""
          - Playful and Nostalgic – Ice cream brings back memories of childhood, fun, and freedom, which often lightens the mood and makes people feel more relaxed and open.
          - Cultural Connector – Across the world, different cultures have unique ice cream traditions. Trying or talking about them is a delicious gateway to learning about others.
         """)
+st.divider()
+st.text(spaces)
+st.image('Evolution-of-ice-cream.png')
+st.divider()
+st.text(spaces)
+
+##############
+# Popularity
+
+st.subheader("Best Ice Cream rating:")
+
+url_details = 'https://raw.githubusercontent.com/sargones/ice_cream/refs/heads/main/products.csv'
+icecream_df = pd.read_csv(url_details)
+popularity_df = icecream_df[['name', 'rating', 'ingredients']]
+min_pop = icecream_df['rating'].min()
+max_pop = icecream_df['rating'].max()
+
+
+low_pop, high_pop = st.slider("Select a range", min_pop, max_pop, (80, 100))
+
+st.dataframe(popularity_df[(popularity_df['rating'] >= low_pop) & (popularity_df['rating'] <= high_pop)],
+             hide_index=True, width=400)
+
+st.divider()
+##############
+
 st.divider()
 st.text(spaces)
 
