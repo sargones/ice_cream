@@ -56,7 +56,7 @@ st.subheader("Best Ice Cream rating:")
 
 url_details = 'https://raw.githubusercontent.com/sargones/ice_cream/refs/heads/main/products.csv'
 icecream_df = pd.read_csv(url_details)
-popularity_df = icecream_df[['name', 'rating']]
+popularity_df = icecream_df[['name', 'rating', 'ingredients']]
 min_pop = popularity_df['rating'].min()
 max_pop = popularity_df['rating'].max()
 
@@ -80,7 +80,7 @@ st.text(spaces)
 st.divider()
 st.text(spaces)
 
-st.write("Thanks for stopping by, hope you'll enjoy it! 🤖 ")
+st.write("Thanks for stopping by, hope you'll enjoy it!  ")  # 🤖
 st.write("In case you liked it or the long calls - feel free to subscibe to ")
 st.write("🎙️'Sweet talks over ice creamt'🎙️")
 st.write("🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦")
