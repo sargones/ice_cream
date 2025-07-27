@@ -63,8 +63,8 @@ max_pop = icecream_df['rating'].max()
 
 low_pop, high_pop = st.slider("Select a range", min_pop, max_pop, (3, 4))
 
-st.dataframe(popularity_df[(popularity_df['rating'] >= low_pop) & (popularity_df['rating'] <= high_pop)],
-             hide_index=True, width=400)
+# st.dataframe(popularity_df[(popularity_df['rating'] >= low_pop) & (popularity_df['rating'] <= high_pop)],
+#              hide_index=True, width=400)
 
 st.divider()
 ##############
