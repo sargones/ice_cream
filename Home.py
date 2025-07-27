@@ -23,8 +23,8 @@ st.text(spaces)
 
 st.text(""" 
         Welcome to "Sweet talks over ice cream" a podcast where we dive deep into the multifaceted aspects of our lives, from the professional to the personal, and everything in between. 
-        where we dive into one of humanity’s sweetest companions—ice cream. From ancient chilled desserts to todays colorful scoops, ice cream has been with us through celebrations, heartbreaks, and lazy Sunday afternoons. 
-        It’s more than just a treat; it’s a conversation starter, a comfort, and often the excuse we need to gather with friends. In this episode, we explore how ice cream became a cultural symbol of joy and connection around the world. 
+        Where we dive into one of humanity’s sweetest companions—ice cream. From ancient chilled desserts to todays colorful scoops, ice cream has been with us through celebrations, heartbreaks, and lazy Sunday afternoons. 
+        It’s more than just a treat; it’s a conversation starter, a comfort, and often the excuse we need to gather with friends. In this serie, we explore how ice cream became a cultural symbol of joy and connection around the world. 
         So grab your favorite flavor and let us melt into the story.         
         Join us as we embark on this journey of discovery and connection, and perhaps, find a little bit of ourselves along the way.
         """)
