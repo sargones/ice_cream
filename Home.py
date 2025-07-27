@@ -61,7 +61,7 @@ popularity_df = icecream_df[['name', 'rating', 'ingredients']]
 # max_pop = icecream_df['rating'].max()
 
 
-low_pop, high_pop = st.slider("Select a range", 1.8, 5, (83, 4))
+low_pop, high_pop = st.slider("Select a range", 1.8, 5, (3, 4))
 
 st.dataframe(popularity_df[(popularity_df['rating'] >= low_pop) & (popularity_df['rating'] <= high_pop)],
              hide_index=True, width=400)
