@@ -45,7 +45,7 @@ st.text("""
         """)
 st.divider()
 st.text(spaces)
-st.image('Evolution-of-ice-cream.png')
+st.image('Evolution.png')
 st.divider()
 st.text(spaces)
 
