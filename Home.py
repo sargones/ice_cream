@@ -56,7 +56,7 @@ st.subheader("Best Ice Cream rating:")
 
 url_details = 'https://raw.githubusercontent.com/sargones/ice_cream/refs/heads/main/products.csv'
 icecream_df = pd.read_csv(url_details)
-popularity_df = icecream_df[['name', 'rating', 'ingredients']]
+popularity_df = icecream_df[['name', 'rating']]
 min_pop = popularity_df['rating'].min()
 max_pop = popularity_df['rating'].max()
 
