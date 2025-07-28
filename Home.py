@@ -73,7 +73,8 @@ st.dataframe(popularity_df[(popularity_df['rating'] >= low_pop) & (popularity_df
 st.divider()
 ##############
 
-st.divider()
+st.write("And here is our first episode!!!")
+st.write("Happy listening")
 st.text(spaces)
 
 
