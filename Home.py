@@ -77,8 +77,8 @@ st.divider()
 st.text(spaces)
 
 
-# st.audio('ice_cream.wav', format="audio/wav", start_time=0, sample_rate=None,
-# end_time=None, loop=False, autoplay=False)
+st.audio('icecream.mp3', format="audio/mp3", start_time=0, sample_rate=None,
+         end_time=None, loop=False, autoplay=False)
 
 st.divider()
 st.text(spaces)
